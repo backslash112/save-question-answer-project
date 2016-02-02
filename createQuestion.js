@@ -4,10 +4,10 @@ var data = JSON.stringify({
 });
 
 $.ajax({
-	url: 'http://localhost:8000/api/question/',
-	type: 'POST',
-	contentType: 'application/json',
-	data: data,
-	dataType: 'json',
-	processData: false
+  url: 'http://localhost:8000/api/question/',
+  type: 'POST',
+  contentType: 'application/json',
+  data: data,
+  dataType: 'json',
+  processData: false
 });
