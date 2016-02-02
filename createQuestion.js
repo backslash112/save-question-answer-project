@@ -10,4 +10,4 @@ $.ajax({
 	data: data,
 	dataType: 'json',
 	processData: false
-})
+});
